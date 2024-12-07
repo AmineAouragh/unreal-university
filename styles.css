@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+}
+
+#topnav {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#topnav div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-item {
+    color: white;
+    height: 100%;
+    margin-right: 30px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+ul {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link:visited {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(205, 44, 44);
+    color: rgb(205, 44, 44);
+}
+
+.nav-link:hover {
+    color: rgb(205, 44, 44);
+}
+
+.login-btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    border: none;
+    font-size: 17px;
+    color: white;
+    background-color: black;
+}
+
+a:hover, button:hover {
+    cursor: pointer;
+}
+
+#master-bundle {
+    background-color: rgb(205, 44, 44);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 6px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#hero {
+    background: url("image.jpg") no-repeat center center;
+    height: 620px;
+    width: 100%;
+}
